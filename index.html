@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon.png">
+</head>
+<body>
+    <div class="container">
+
+        <div class="date">
+            <div class="date-group">
+                <label for="day">DAY</label>
+                <input type="number" name="day" id="day" placeholder="DD" title="This field is required" required>
+            </div>
+
+            <div class="date-group">
+                <label for="month">MONTH</label>
+                <input type="number" name="month" id="month" placeholder="MM" title="This field is required" required>
+            </div>
+
+            <div class="date-group">
+                <label for="year">YEAR</label>
+                <input type="number" name="year" id="year" placeholder="YY" title="This field is required" required>
+            </div>
+        </div>
+
+        <div class="calculate">
+            <button><img src="assets/icon-arrow.svg" alt="icon-arrow"></button>
+        </div>
+        
+        <div class="result">
+            <span class="result-hyphen years">--</span>
+            <span>years</span>
+            <br>
+            <span class="result-hyphen months">--</span>
+            <span>months</span>
+            <br>
+            <span class="result-hyphen days">--</span>
+            <span>days</span>
+        </div>
+
+    </div>
+    <footer>
+        <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://facuandrean.github.io/portfolio/">Facundo Andrean</a>.
+        </p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
